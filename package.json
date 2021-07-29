@@ -21,5 +21,7 @@
     "url": "https://github.com/web-asya/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/web-asya/frontend-project-lvl1#readme",
-  "devDependencies": {}
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
