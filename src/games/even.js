@@ -7,14 +7,14 @@ export const Question = () => {
     return num;
 };
 
-export const UserAnswer = (answer) => {
+export const GameEven = () => {
     if ((num % 2 === 0 && answer === 'yes') || (num % 2 !== 0 && answer === 'no'))  {
-    return 'Correct!';
+        console.log('Correct!');
 }
     else if (num % 2 !== 0 && answer === 'yes') {
-    return "'yes' is wrong answer ;(. Correct answer was 'no'. Let's try again, Bill!";
+        console.log("'yes' is wrong answer ;(. Correct answer was 'no'. Let's try again, Bill!");
 }
     else if (num % 2 === 0 && answer === 'no') {
-    return "'no' is wrong answer ;(. Correct answer was 'no'. Let's try again, Bill!!";
+        console.log ("'no' is wrong answer ;(. Correct answer was 'no'. Let's try again, Bill!!");
 }
 };
