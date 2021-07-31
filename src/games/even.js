@@ -11,6 +11,7 @@ export const Question = () => {
 export const GameEven = () => {
     const elements = [num,num,num];
     for (let i = 0, i < elements.length, i += 1;) {
+        let answer = '';
     if ((num % 2 === 0 && answer === 'yes') || (num % 2 !== 0 && answer === 'no'))  {
         console.log('Correct!');
     }
