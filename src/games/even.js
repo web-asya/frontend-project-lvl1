@@ -1,5 +1,4 @@
 import {getRandomInt} from '../games/randomaizer.js';
-import { Question } from './even.js';
 export const startgame = 'Answer "yes" if the number is even, otherwise answer "no"';
 
 export const Question = () => {
@@ -10,7 +9,7 @@ export const Question = () => {
 
 export const GameEven = () => {
     const elements = [num,num,num];
-    for (let i = 0, i < elements.length, i += 1;) {
+    for (let i = 0; i < elements.length, i += 1;) {
         let answer = '';
     if ((num % 2 === 0 && answer === 'yes') || (num % 2 !== 0 && answer === 'no'))  {
         console.log('Correct!');
