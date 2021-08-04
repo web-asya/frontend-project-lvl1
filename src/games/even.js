@@ -4,10 +4,10 @@ export const condition = 'Answer "yes" if the number is even, otherwise answer "
 
 export const Number = () => {
     const num = getRandomInt (1,100);
- };
+ return num};
 
 
-export const correctAnswer = () => {
+export const correctAnswer = (num) => {
 
     if (num % 2 === 0 ) {
         return 'yes';
