@@ -1,12 +1,13 @@
 
 import readlineSync from 'readline-sync';
-import correctAnswer from './games/even';
-import { Number } from './games/even';
+import {correctAnswer} from './games/even.js';
+import { Number } from './games/even.js';
+import {condition} from './games/even.js';
 
 const Game = () => {
     console.log('Welcome to the Brain Games!');
     const name = readlineSync.question('May I have your name? ');
-    console.log(`Hello ${name}!`);
+    console.log(`Hello, ${name}!`);
     console.log(condition);
 
     for (let i = 0; i < 3, i += 1;) {

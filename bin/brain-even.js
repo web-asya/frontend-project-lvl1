@@ -1,4 +1,4 @@
 #!/usr/bin/env node
+import Game from '../src/game_layout.js';
 import {condition} from '../src/games/even.js';
-import {Game} from '../game_layout.js';
 Game (condition);
