@@ -10,7 +10,7 @@ const Game = () => {
     console.log(`Hello, ${name}!`);
     console.log(condition);
 
-    for (let i = 0; i < 3, i += 1;) {
+    for (let i = 0; i < 3; i += 1) {
             const num = Number();
             console.log (`Question: ${num}`);
 
@@ -19,9 +19,10 @@ const Game = () => {
           console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer(num)}".`);
           console.log(`Let's try again, ${name}!`);
 
-        }
+        };
         console.log('Correct!');
-      }
+     };
+
       console.log(`Congratulations, ${name}!`);
     };
 
