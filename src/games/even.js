@@ -1,17 +1,19 @@
 import {getRandomInt} from '../games/randomaizer.js';
+import Game from '../game_layout.js';
 
-export const condition = 'Answer "yes" if the number is even, otherwise answer "no".';
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-export const Number = () => {
+const isEven = (num) => num % 2 === 0;
+
+const GameTask = () => {
     const num = getRandomInt (1,100);
- return num};
+    const answer = isEven(num)  ? 'yes' : 'no';
+    return [num, answer];
+  };
 
+const isEvenGame = () => {
+    Game(description, GameTask);
+  };
 
-export const correctAnswer = (num) => {
-
-    if (num % 2 === 0 ) {
-        return 'yes';
-    };
-    return 'no';
-};
+  export default isEvenGame;
 
