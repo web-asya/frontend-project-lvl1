@@ -5,5 +5,5 @@ export const getRandomInt = (min, max) => {
 };
 
 export const selectedOperator = (operators) => {
-    return Math.floor(Math.random() * operators.length);
-}
+    operators[getRandomInt(0, operators.length - 1)];
+};
