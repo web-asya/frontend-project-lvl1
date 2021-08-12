@@ -9,11 +9,11 @@ const GameTask = () => {
     const num = getRandomInt (1,100);
     const answer = isEven(num)  ? 'yes' : 'no';
     return [num, answer];
-  };
+};
 
 const isEvenGame = () => {
     Game(description, GameTask);
-  };
+};
 
   export default isEvenGame;
 

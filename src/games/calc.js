@@ -12,7 +12,7 @@ const calculator = (num1,operator,num2) => {
       case "-":
         return num1 - num2;
         }
-    };
+};
 
 const GameTask = () => {
     const num1 = getRandomInt (1,100);

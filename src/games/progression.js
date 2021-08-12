@@ -13,7 +13,7 @@ const MakeProgression = () => {
       progression[i] = FirstNumber + d * i;
     }
     return progression;
-  };
+};
 
   const GameTask = () => {
     const progression = MakeProgression(10);
@@ -23,12 +23,11 @@ const MakeProgression = () => {
     progression[hiddenNumber] = '..';
     const exercise = String(progression);
 
-
     return [exercise, answer];
-  };
+};
 
   const ProgressionGame = () => {
     Game(description, GameTask);
-  };
+};
 
   export default ProgressionGame;

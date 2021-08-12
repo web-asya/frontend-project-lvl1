@@ -24,9 +24,9 @@ const Game = (description, GameTask) => {
 
         };
         console.log('Correct!');
-     };
+    };
 
       console.log(`Congratulations, ${name}!`);
-    };
+};
 
     export default Game;
