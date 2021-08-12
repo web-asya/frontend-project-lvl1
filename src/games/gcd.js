@@ -38,8 +38,8 @@ const Gcd = (num1,num2) => {
 // };
 
 const GameTask = () => {
-    const num1 = getRandomInt (1,100);
-    const num2 = getRandomInt (1,100);
+    const num1 = getRandomInt (1,50);
+    const num2 = getRandomInt (1,50);
     const expression = `${num1} ${num2}`;
     let answer = Gcd (num1,num2);
     return [expression, String(answer)];
