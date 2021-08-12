@@ -21,7 +21,7 @@ const MakeProgression = () => {
     const answer = String(progression[hiddenNumber]);
 
     progression[hiddenNumber] = '..';
-    const exercise = String(progression);
+    const exercise = progression.join(' ');
 
     return [exercise, answer];
 };
