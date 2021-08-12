@@ -16,25 +16,6 @@ const Gcd = (num1,num2) => {
         num2 = num2 % num1;
     }
 };
-// почему не работает вариант ниже?
-// const Gcd = (num1,num2) => {
-//     if (num2 == 0) {
-//         return num1;
-//     };
-//     if (num1 == 0) {
-//         return num2;
-//     };
-//     if (num2 > num1) {
-//         let temp = num1;
-//         num1 = num2;
-//         num2 = temp;
-//          }
-//     while (num1 !== 0 && num2 !== 0) {
-//     if (num1 > num2)
-//          return num1 = num1 % num2;
-//         num2 = num2 % num1;
-//     };
-// };
 
 const GameTask = () => {
     const num1 = getRandomInt (1,50);
