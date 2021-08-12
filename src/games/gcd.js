@@ -16,8 +16,7 @@ const Gcd = (num1,num2) => {
         num2 = num2 % num1;
     }
 };
-
-// TODO: почему вариант ниже не работает??
+// почему вариант ниже не работает??
 // const Gcd = (num1,num2) => {
 //     if (num2 == 0) {
 //         return num1;
