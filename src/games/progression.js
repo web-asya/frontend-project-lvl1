@@ -20,7 +20,8 @@ const MakeProgression = () => {
     const hiddenNumber = getRandomInt(0, lengthOfProgression - 1);
     const answer = String(progression[hiddenNumber]);
 
-    const exercise = progression.splice([hiddenNumber], 0 , '..');
+    progression[hiddenNumber] = '..';
+    const exercise = String(progression);
 
 
     return [exercise, answer];
