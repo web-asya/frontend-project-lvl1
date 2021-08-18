@@ -9,7 +9,7 @@ const Game = (description, GameTask) => {
   const AmountRounds = 3;
 
   for (let i = 0; i < AmountRounds; i += 1) {
-    let task = GameTask();
+    const task = GameTask();
     const [num, answer] = task;
     console.log(`Question: ${num}`);
 

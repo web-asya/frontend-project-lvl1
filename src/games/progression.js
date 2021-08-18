@@ -7,7 +7,7 @@ const lengthOfProgression = 10;
 const MakeProgression = () => {
   const d = getRandomInt(1, 50);
   const FirstNumber = getRandomInt(1, 50);
-  let progression = [];
+  const progression = [];
 
   for (let i = 0; i < lengthOfProgression; i += 1) {
     progression[i] = FirstNumber + d * i;

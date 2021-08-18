@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import { getRandomInt } from './randomaizer.js';
 
 import Game from '../game_layout.js';
@@ -12,6 +13,7 @@ const calculator = (num1, operator, num2) => {
       return num1 + num2;
     case '-':
       return num1 - num2;
+    default:
   }
 };
 
