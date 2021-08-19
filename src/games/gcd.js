@@ -3,9 +3,10 @@ import Game from '../game_layout.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const Gcd = () => {
-  let num1;
-  let num2;
+const Gcd = (firstNumber, secondNumber) => {
+  let num1 = firstNumber;
+  let num2 = secondNumber;
+
   if (num2 > num1) {
     const temp = num1;
     num1 = num2;
