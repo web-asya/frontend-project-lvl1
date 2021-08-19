@@ -1,9 +1,9 @@
 import getRandomInt from './randomaizer.js';
-import Game from '../game_layout.js';
+import game from '../game_layout.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const Gcd = (firstNumber, secondNumber) => {
+const gcd = (firstNumber, secondNumber) => {
   let num1 = firstNumber;
   let num2 = secondNumber;
 
@@ -20,16 +20,16 @@ const Gcd = (firstNumber, secondNumber) => {
   }
 };
 
-const GameTask = () => {
+const gameTask = () => {
   const num1 = getRandomInt(1, 50);
   const num2 = getRandomInt(1, 50);
   const expression = `${num1} ${num2}`;
-  const answer = Gcd(num1, num2);
+  const answer = gcd(num1, num2);
   return [expression, String(answer)];
 };
 
-const GameGCD = () => {
-  Game(description, GameTask);
+const gameGCD = () => {
+  game(description, gameTask);
 };
 
-export default GameGCD;
+export default gameGCD;

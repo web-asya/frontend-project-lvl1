@@ -1,6 +1,5 @@
 import getRandomInt from './randomaizer.js';
-
-import Game from '../game_layout.js';
+import game from '../game_layout.js';
 
 const description = 'What is the result of the expression?';
 
@@ -17,7 +16,7 @@ const calculator = (num1, operator, num2) => {
   }
 };
 
-const GameTask = () => {
+const gameTask = () => {
   const num1 = getRandomInt(1, 100);
   const num2 = getRandomInt(1, 100);
   const operators = ['+', '-', '*'];
@@ -27,8 +26,8 @@ const GameTask = () => {
   return [expression, String(answer)];
 };
 
-const Calc = () => {
-  Game(description, GameTask);
+const calc = () => {
+  game(description, gameTask);
 };
 
-export default Calc;
+export default calc;

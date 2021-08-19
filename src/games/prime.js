@@ -1,5 +1,5 @@
 import getRandomInt from './randomaizer.js';
-import Game from '../game_layout.js';
+import game from '../game_layout.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -16,14 +16,14 @@ const isPrime = (num) => {
   return true;
 };
 
-const GameTask = () => {
+const gameTask = () => {
   const num = getRandomInt(1, 17);
   const answer = isPrime(num) ? 'yes' : 'no';
   return [num, answer];
 };
 
 const isPrimeGame = () => {
-  Game(description, GameTask);
+  game(description, gameTask);
 };
 
 export default isPrimeGame;

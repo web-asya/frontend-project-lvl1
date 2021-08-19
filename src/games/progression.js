@@ -1,10 +1,10 @@
 import getRandomInt from './randomaizer.js';
-import Game from '../game_layout.js';
+import game from '../game_layout.js';
 
 const description = 'What number is missing in the progression?';
 const lengthOfProgression = 10;
 
-const MakeProgression = () => {
+const makeProgression = () => {
   const d = getRandomInt(1, 50);
   const FirstNumber = getRandomInt(1, 50);
   const progression = [];
@@ -15,8 +15,8 @@ const MakeProgression = () => {
   return progression;
 };
 
-const GameTask = () => {
-  const progression = MakeProgression(10);
+const gameTask = () => {
+  const progression = makeProgression(10);
   const hiddenNumber = getRandomInt(0, lengthOfProgression - 1);
   const answer = String(progression[hiddenNumber]);
   progression[hiddenNumber] = '..';
@@ -25,8 +25,8 @@ const GameTask = () => {
   return [exercise, answer];
 };
 
-const ProgressionGame = () => {
-  Game(description, GameTask);
+const progressionGame = () => {
+  game(description, gameTask);
 };
 
-export default ProgressionGame;
+export default progressionGame;
