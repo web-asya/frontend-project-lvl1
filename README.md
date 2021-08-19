@@ -4,7 +4,7 @@
 [![Node.js CI](https://github.com/web-asya/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/web-asya/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 ## Install Brain Game
-### npm link 
+### npm link
 ### Brain Even
 [![asciicast](https://asciinema.org/a/Ln771nmVEuVamK08CgvN3kqpv.svg)](https://asciinema.org/a/Ln771nmVEuVamK08CgvN3kqpv)
 ### Brain Calc
