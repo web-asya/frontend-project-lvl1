@@ -1,10 +1,10 @@
-/* eslint-disable consistent-return */
-import { getRandomInt } from './randomaizer.js';
+import getRandomInt from './randomaizer.js';
 
 import Game from '../game_layout.js';
 
 const description = 'What is the result of the expression?';
 
+// eslint-disable-next-line consistent-return
 const calculator = (num1, operator, num2) => {
   switch (operator) {
     case '*':

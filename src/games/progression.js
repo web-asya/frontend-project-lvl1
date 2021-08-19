@@ -1,4 +1,4 @@
-import { getRandomInt } from './randomaizer.js';
+import getRandomInt from './randomaizer.js';
 import Game from '../game_layout.js';
 
 const description = 'What number is missing in the progression?';

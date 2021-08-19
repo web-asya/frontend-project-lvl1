@@ -1,9 +1,11 @@
-import { getRandomInt } from './randomaizer.js';
+import getRandomInt from './randomaizer.js';
 import Game from '../game_layout.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const Gcd = (num1, num2) => {
+const Gcd = () => {
+  let num1;
+  let num2;
   if (num2 > num1) {
     const temp = num1;
     num1 = num2;

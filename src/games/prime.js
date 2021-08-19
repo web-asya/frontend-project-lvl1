@@ -1,4 +1,4 @@
-import { getRandomInt } from './randomaizer.js';
+import getRandomInt from './randomaizer.js';
 import Game from '../game_layout.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';

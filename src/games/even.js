@@ -1,4 +1,4 @@
-import { getRandomInt } from './randomaizer.js';
+import getRandomInt from './randomaizer.js';
 import Game from '../game_layout.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';

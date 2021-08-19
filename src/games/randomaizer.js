@@ -1,9 +1,3 @@
-export const getRandomInt = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
-};
+const getRandomInt = (min, max) => min + Math.floor(Math.random() * max);
 
-export const selectedOperator = (operators) => {
-  operators[getRandomInt(0, operators.length - 1)];
-};
+export { getRandomInt as default };
