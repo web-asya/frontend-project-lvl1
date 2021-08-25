@@ -1,4 +1,4 @@
-import getRandomInt from './randomaizer.js';
+import getRandomInt from '../utils.js';
 import runGame from '../game-engine.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
