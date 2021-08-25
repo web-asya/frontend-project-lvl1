@@ -28,8 +28,8 @@ const gameTask = () => {
   return [expression, String(answer)];
 };
 
-const gameGCD = () => {
+const startGameGCD = () => {
   game(description, gameTask);
 };
 
-export default gameGCD;
+export default startGameGCD;
