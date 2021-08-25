@@ -5,13 +5,13 @@
 
 ## Install Brain Game
 ### npm link
-### Brain Even
-[![asciicast](https://asciinema.org/a/Ln771nmVEuVamK08CgvN3kqpv.svg)](https://asciinema.org/a/Ln771nmVEuVamK08CgvN3kqpv)
-### Brain Calc
-[![asciicast](https://asciinema.org/a/cOQppkpD1NrBkenQQxFRpJ3X3.svg)](https://asciinema.org/a/cOQppkpD1NrBkenQQxFRpJ3X3)
+## Brain Even
+[![asciicast](https://asciinema.org/a/EWLizKcjmUOKuUzZQJHTFdFpE.svg)](https://asciinema.org/a/EWLizKcjmUOKuUzZQJHTFdFpE)
+## Brain Calc
+[![asciicast](https://asciinema.org/a/L4o41xms6TAieiuqetbAY8Q45.svg)](https://asciinema.org/a/L4o41xms6TAieiuqetbAY8Q45)
 ### Brain GCD
-[![asciicast](https://asciinema.org/a/6V54t2qUNvRVKqp1rcnPA7Y4c.svg)](https://asciinema.org/a/6V54t2qUNvRVKqp1rcnPA7Y4c)
+[![asciicast](https://asciinema.org/a/YYsGQ6Whx4TQFwc5jjw1oc7q5.svg)](https://asciinema.org/a/YYsGQ6Whx4TQFwc5jjw1oc7q5)
 ### Brain Progression
-[![asciicast](https://asciinema.org/a/YacmAHAihYD6Feu7vOWn7SFII.svg)](https://asciinema.org/a/YacmAHAihYD6Feu7vOWn7SFII)
+[![asciicast](https://asciinema.org/a/rsIerZHNGQAY9padc3ZNVWTPO.svg)](https://asciinema.org/a/rsIerZHNGQAY9padc3ZNVWTPO)
 ### Brain Prime
-[![asciicast](https://asciinema.org/a/BHe20eIO5HhdXi2zT787IwkEQ.svg)](https://asciinema.org/a/BHe20eIO5HhdXi2zT787IwkEQ)
+[![asciicast](https://asciinema.org/a/rWz6uJfzt6OeoydCUjXp41m22.svg)](https://asciinema.org/a/rWz6uJfzt6OeoydCUjXp41m22)
