@@ -1,10 +1,9 @@
 import getRandomInt from './randomaizer.js';
-import game from '../game_layout.js';
+import runGame from '../game-engine.js';
 
 const description = 'What is the result of the expression?';
 
-// eslint-disable-next-line consistent-return
-const calculator = (num1, operator, num2) => {
+const calculate = (num1, operator, num2) => {
   switch (operator) {
     case '*':
       return num1 * num2;
@@ -13,21 +12,22 @@ const calculator = (num1, operator, num2) => {
     case '-':
       return num1 - num2;
     default:
+      throw new Error('указанный оператор не поддерживается');
   }
 };
 
-const gameTask = () => {
+const genGameTask = () => {
   const num1 = getRandomInt(1, 100);
   const num2 = getRandomInt(1, 100);
   const operators = ['+', '-', '*'];
   const operator = operators[getRandomInt(0, operators.length - 1)];
-  const expression = `${num1} ${operator} ${num2}`;
-  const answer = calculator(num1, operator, num2);
-  return [expression, String(answer)];
+  const question = `${num1} ${operator} ${num2}`;
+  const answer = String(calculate(num1, operator, num2));
+  return [question, answer];
 };
 
 const startCalc = () => {
-  game(description, gameTask);
+  runGame(description, genGameTask);
 };
 
 export default startCalc;
