@@ -26,8 +26,8 @@ const gameTask = () => {
   return [expression, String(answer)];
 };
 
-const calc = () => {
+const startCalc = () => {
   game(description, gameTask);
 };
 
-export default calc;
+export default startCalc;
