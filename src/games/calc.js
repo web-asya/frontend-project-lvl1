@@ -26,8 +26,8 @@ const genGameTask = () => {
   return [question, answer];
 };
 
-const startCalc = () => {
+const startGameCalc = () => {
   runGame(description, genGameTask);
 };
 
-export default startCalc;
+export default startGameCalc;
